@@ -24,9 +24,13 @@ public class Desarrollo extends JFrame {
         // Eventos2 eventoVentana = new Eventos2();
         // addWindowListener(eventoVentana); // Agrego el evento a la ventana
 
-        setTitle("Eventos de ventana con adaptador");
-        Adapter adaptadorVentana = new Adapter();
-        addWindowListener(adaptadorVentana); // Agrego el adaptador a la ventana
+        // setTitle("Eventos de ventana con adaptador");
+        // Adapter adaptadorVentana = new Adapter();
+        // addWindowListener(adaptadorVentana); // Agrego el adaptador a la ventana
+
+        setTitle("Eventos de Teclado");
+        Eventos3 eventoTeclado = new Eventos3();
+        addKeyListener(eventoTeclado); // Agrego el evento al teclado
 
     }
 
